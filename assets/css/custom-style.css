@@ -1,0 +1,181 @@
+.navbar-area.navbar-style-three .zovio-nav .navbar .navbar-nav{
+    margin-left: auto;
+    margin-right: 0;
+}
+.zovio-nav .navbar .navbar-nav .nav-item a i{
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.search-btn{
+    font-size: 20px;
+    background-color: #BCBCBC;
+    border: none;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.search-btn .fa-search{
+    color: #042123;
+}
+#main-slider{
+    width: 100%;
+    height: 722px;
+    position: relative;
+  
+}
+#main-slider .main-background,#main-slider .main-forground{
+    height: auto;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+#main-slider .main-background svg,#main-slider .main-forground svg{
+    width: 100%;
+    height: 100%;
+}
+#main-slider .main-background{
+    width: 410px;
+}
+#main-slider .main-forground{
+    width: 432px;
+}
+.navbar-area.navbar-style-three .zovio-nav .navbar .navbar-nav{
+    padding: 0;
+    margin-right: 125px;
+}
+.zovio-nav .navbar .navbar-nav .nav-item a{
+    color:#042123 ;
+    font-size: 16px;
+}
+.zovio-nav .navbar .navbar-nav .nav-item a:hover, .zovio-nav .navbar .navbar-nav .nav-item a:focus, .zovio-nav .navbar .navbar-nav .nav-item a.active{
+    color: #13AEC0;
+}
+.zovio-nav .navbar .navbar-nav .nav-item:hover a, .zovio-nav .navbar .navbar-nav .nav-item.active a{
+    color: #13AEC0;
+}
+.zovio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .zovio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .zovio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active{
+    color: #13AEC0;
+}
+.zovio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a::before{
+    background-color: #13AEC0;
+}
+#book-slider{
+    width: 100%;
+    
+   
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs{
+    background: none;
+}
+    .royalSlider > .rsContent {
+    visibility:hidden;
+    }
+    
+    .rsContent {
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+    }
+    .bContainer {
+    position: relative;
+    }
+    .rsABlock {
+    position: relative;
+    display: block;
+    left: auto;
+    top: auto;
+    }
+    .blockHeadline {
+    font-size: 42px;
+    line-height: 50px;
+    }
+    .blockSubHeadline {
+    font-size: 32px;
+    line-height: 40px
+    }
+    .cover-box {
+        width: 380px;
+    left: auto;
+    right: 145px;
+    position: absolute;
+    }
+.cover-box svg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+ 
+   .cover-box .image-container{
+       width: 100%;
+       height: auto;
+       position: absolute;
+       border: 1px solid red;
+   }
+    .photoCopy {
+    position: absolute;
+    line-height: 24px;
+    font-size: 12px;
+    background: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0px 10px;
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    top: auto;
+    border-radius: 2px;
+    z-index: 25;
+    }
+    .photoCopy a {
+    color: #FFF;
+    }
+    .palmImg {
+    left: 0;
+    top: auto;
+    bottom: -60px;
+    position: absolute;
+    }
+    
+    
+    @media screen and (min-width: 0px) and (max-width: 960px) { 
+    .rsContent {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .blockHeadline {
+      font-size: 32px;
+      line-height: 32px;
+    }
+    .blockSubHeadline {
+      font-size: 26px;
+      line-height: 32px
+    }
+    }
+    @media screen and (min-width: 0px) and (max-width: 500px) { 
+    .royalSlider,
+    .rsOverflow {
+      height: 330px !important;
+    }
+    .rsContent {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    .blockHeadline {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .blockSubHeadline {
+      font-size: 22px;
+      line-height: 32px
+    }
+    }
