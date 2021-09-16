@@ -6963,36 +6963,175 @@ Go Top CSS
         font-size: 19px;
     }
     
-    .tab__one {
+    .tag {
+        display: flex;
+        justify-content: space-around;
+        margin: 9px;
+    }
+    
+    .btn-tag {
+        background-color: #f7f7f7;
+        color: #bcbcbc;
+        width: 248px;
+        height: 50px;
+        border-radius: 11px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    .learnmore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #bcbcbc;
+    }
+    
+    .learnmore img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #bcbcbc;
+    }
+    
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 56px;
+        padding: 15px;
+    }
+    
+    * html {
+        font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    
+    h5 {
+        font-size: 1.28571429em;
+        font-weight: 700;
+        line-height: 1.2857em;
+        margin: 0;
+    }
+    
+    .card {
+        font-size: 1em;
+        overflow: hidden;
+        padding: 0;
+        border: none;
+        border-radius: 2.285714rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .card-block {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, .1);
+        box-shadow: none;
+    }
+    
+    .card-img-top {
+        display: block;
         width: 100%;
+        height: auto;
     }
     
-    .master {
-        color: #ded9d9;
-        font-size: 19px;
-        margin: 15px 29px;
+    .card-title {
+        font-size: 1.285714em;
+        font-weight: 300;
+        line-height: 1.2857em;
+        text-align: right;
     }
     
-    .master__2 {
-        font-size: 30px;
+    .card-text {
+        clear: both;
+        margin-top: .5em;
+        color: rgba(0, 0, 0, .68);
+    }
+    
+    .card-footer {
+        font-size: 1em;
+        position: static;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        padding: .75em 1em;
+        color: rgba(0, 0, 0, .4);
+        border-top: 1px solid rgba(0, 0, 0, .05) !important;
+        background: #fff;
+    }
+    
+    .card-inverse .btn {
+        border: 1px solid rgba(0, 0, 0, .05);
+    }
+    
+    .profile {
+        position: absolute;
+        top: -12px;
+        display: inline-block;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        left: 15px;
+        background: #14B9CC;
+    }
+    
+    .profile-avatar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .profile-inline {
+        position: relative;
+        top: 0;
+        display: inline-block;
+    }
+    
+    .profile-inline~.card-title {
+        display: inline-block;
+        margin-left: 4px;
+        vertical-align: top;
+    }
+    
+    .text-bold {
         font-weight: 700;
     }
     
-    .box2 {
-        max-width: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: right;
-        font-size: 15px;
+    .meta {
+        font-size: 1em;
+        color: rgba(0, 0, 0, .4);
     }
     
-    .line {
-        border: 3px solid #BCBCBC;
-        border-radius: 5px;
-        width: 60%;
-        margin-left: 15px;
+    .meta a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, .4);
+    }
+    
+    .meta {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .meta a:hover {
+        color: rgba(0, 0, 0, .87);
+    }
+    
+    .column__slider {
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        /* margin-right: 53px; */
+        /* margin-left: -15px; */
+        align-items: center;
     }
