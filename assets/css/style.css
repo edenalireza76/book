@@ -7146,6 +7146,16 @@ Go Top CSS
         color: #707070;
     }
     
+    .subtitle1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 23px;
+        left: 160px;
+        color: #707070;
+    }
+    
     .fa-angle-left {
         display: flex;
         justify-content: space-around;
@@ -7370,4 +7380,51 @@ Go Top CSS
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    #footer__Down {
+        width: 100%;
+        background-color: #e7e8ed;
+        padding: 30px;
+    }
+    
+    .line__footer {
+        width: 70%;
+    }
+    /****Responsiv******/
+    
+    @media screen and (min-width: 768px) {
+        .img__footer {
+            position: relative;
+        }
+        .zovio-responsive-nav {
+            display: none;
+        }
+    }
+    /*********homepage*******/
+    
+    .column__box {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    
+    .box__modal {
+        width: 200px;
+        height: 200px;
+        background-color: #f1f1f2;
+        border-radius: 40px;
+        margin: 15px;
+    }
+    
+    .text__box {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row-coulmn {
+        width: 100%;
+        display: flex;
     }
